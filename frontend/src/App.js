@@ -69,12 +69,12 @@ function App() {
 
       {error && <p className="error-message">Error: {error}</p>}
 
-      {sql && (
+      {/* {sql && (
         <div className="answer-section">
           <h3>Generated SQL Query:</h3>
           <pre>{sql}</pre>
         </div>
-      )}
+      )} */}
 
       {answer && (
         <div className="answer-section">
